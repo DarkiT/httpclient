@@ -296,6 +296,6 @@ echo $response->isForbidden();
 //是否是404
 echo $response->isNotFound();
 
-//是否是201,04,304
+//是否是201,204,304
 echo $response->isEmpty();
 ```
